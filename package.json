@@ -1,0 +1,14 @@
+{
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongodb": "^3.6.3",
+		"server": "^1.0.37",
+		"ws": "^7.3.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+	}
+}

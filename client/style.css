@@ -1,0 +1,143 @@
+body{
+    font-family: Arial;
+}
+a{
+    text-decoration:none;
+}
+
+.menu-item{
+    display:inline-block;
+    width:49.5%;
+    text-align: center;
+    vertical-align: middle;
+    height:100%;
+    
+}
+.menu-item a{
+    color:white;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+@media(min-width: 1024px) {
+    body{
+        width: 100%;
+    }
+    #app-view {
+      width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body{
+        width: 100%;
+    }
+    #app-view {
+      width: 90%;
+    }
+}
+
+@media (max-width: 767px) {
+    body{
+        width: 100%;
+    }
+    #app-view {
+      width: 100%;
+    }
+}
+
+
+
+.menu-item:hover {
+    background-color:#add8e6;
+}
+
+.menu-item:hover a{
+    color:yellow;
+}
+
+.room-list li:hover{
+    color:#0F74EB;
+    background-color:#add8e6;
+}
+
+#app-view{
+    text-align: center;
+    
+}
+
+.room-list {
+    text-align: left;
+    color: black;
+    background-color:white;
+}
+
+.page-control{
+    background-color:#0F74EB;
+}
+
+img{
+    align-items: left;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+
+}
+
+div.box-around-app-menu{
+    background-color:#0F74EB;
+}
+
+/*CSS FOR CHAT.HTML*/
+
+div.message.my-message{
+    width: 400px;
+    margin-left:auto;
+    margin-right:0;
+    text-align:left;
+    background-color: #0F74EB;
+    border-radius: 10px;
+    padding-left: 20px;
+    vertical-align: middle;
+
+
+}
+div.message{
+    width: 400px;
+    text-align:left;
+    background-color:#add8e6;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.message-user{
+    font-weight:bold;
+}
+
+textarea{
+    width:80%;
+    vertical-align: middle;
+}
+
+.page-control{
+vertical-align: middle;
+}
+
+/*CSS FOR  PROFILE.HTML*/
+
+.profile-form{
+    text-align:left;
+}
+
+.form-field{
+    display:inline-block;
+}
+
+.message-list{
+    min-height: 100px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
